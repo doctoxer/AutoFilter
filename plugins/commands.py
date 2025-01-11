@@ -27,7 +27,7 @@ async def start(client, message):
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
             InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+            InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/MoviePalaceUpdates')
         ],[
             InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
         ]]
@@ -337,9 +337,10 @@ async def start(client, message):
                                                             InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
                     )
                 if STREAM_MODE == True:
+                    
                     button = [[
                         InlineKeyboardButton('☘︎ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/MoviePalaceUpdates')
                     ],[
                         InlineKeyboardButton('𖤍 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𖤍', url=OWNER_LNK)
                     ],[
@@ -448,7 +449,7 @@ async def start(client, message):
                 if STREAM_MODE == True:
                     button = [[
                         InlineKeyboardButton('☘︎ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/MoviePalaceUpdates')
                     ],[
                         InlineKeyboardButton('𖤍 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𖤍', url=OWNER_LNK)
                     ],[
@@ -460,7 +461,7 @@ async def start(client, message):
                 else:
                     button = [[
                         InlineKeyboardButton('☘︎ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/MoviePalaceUpdates')
                     ],[
                         InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
                     ]]
@@ -590,7 +591,7 @@ async def start(client, message):
                     return
             button = [[
                 InlineKeyboardButton('☘︎ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/MoviePalaceUpdates')
             ],[
                 InlineKeyboardButton("𖤍 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𖤍", url=OWNER_LNK)
             ]]
@@ -652,7 +653,7 @@ async def start(client, message):
                     return
             button = [[
                 InlineKeyboardButton('☘︎ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/MoviePalaceUpdates')
             ],[
                 InlineKeyboardButton("𖤍 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
             ]]
@@ -716,7 +717,7 @@ async def start(client, message):
             return
     button = [[
         InlineKeyboardButton('☘︎ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('☘︎ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/MoviePalaceUpdates')
             ],[
                 InlineKeyboardButton("𖤍 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
     ]]
